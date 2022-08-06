@@ -1,7 +1,62 @@
 body {
-  background: black;
-  color: whitesmoke;
+  background-color: black;
+  color: white;
+  font-family: "Roboto", sans-serif;
 }
 
-/*font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto', sans-serif;*/
+img {
+  border-radius: 15px;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 82px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+.hero-button {
+  text-decoration: none;
+  background-color: #f76b8a;
+  color: white;
+  padding: 15px 25px;
+  border: 1px solid #f76b8a;
+  border-radius: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.hero-button:hover {
+  color: black;
+}
+
+@media (max-width: 652px) {
+  h1 {
+    font-size: 38px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+
+  blockquote {
+    font-size: 8px;
+  }
+  .hero-button {
+    padding: 20px;
+    font-size: 12px;
+  }
+}
+
+/* font-family: "Montserrat", sans-serif;
+font-family: "Roboto", sans-serif;*/
