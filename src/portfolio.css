@@ -66,6 +66,10 @@ h2 {
   background-color: #212121;
 }
 
+.about-p {
+  text-align: justify;
+}
+
 .camera {
   height: 30px;
   width: auto;
@@ -83,6 +87,14 @@ h2 {
 
 .contact-a:hover {
   color: #f76b8a;
+}
+
+.about-img-camera {
+  background-color: #2d2727;
+}
+
+.about-btn-wrap {
+  margin-top: 50px;
 }
 /* font-family: "Montserrat", sans-serif;
 font-family: "Roboto", sans-serif;*/
