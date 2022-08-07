@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: #212121;
   color: white;
   font-family: "Roboto", sans-serif;
 }
@@ -18,7 +18,7 @@ h2 {
   font-size: 48px;
 }
 
-p {
+.home-p {
   font-style: italic;
   font-size: 18px;
 }
@@ -71,5 +71,18 @@ p {
   width: auto;
 }
 
+.pink-title {
+  font-size: 18px;
+  color: #f76b8a;
+}
+
+.contact-a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact-a:hover {
+  color: #f76b8a;
+}
 /* font-family: "Montserrat", sans-serif;
 font-family: "Roboto", sans-serif;*/
