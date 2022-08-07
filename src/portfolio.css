@@ -96,5 +96,14 @@ h2 {
 .about-btn-wrap {
   margin-top: 50px;
 }
+
+footer {
+  background-color: #2d2727;
+}
+
+footer li {
+  list-style-type: none;
+  text-align: center;
+}
 /* font-family: "Montserrat", sans-serif;
 font-family: "Roboto", sans-serif;*/
