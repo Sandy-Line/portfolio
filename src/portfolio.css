@@ -103,7 +103,7 @@ li {
     width: auto;
   }
 
-  .index-title h1,
+  h1,
   h2 {
     font-size: 24px;
   }
@@ -141,14 +141,8 @@ li {
 /*    MEDIA QUERIES ABOUT ME  */
 
 @media (max-width: 1202px) {
-  .index-title h1 {
-    font-size: 24px;
-    letter-spacing: 0.2rem;
-  }
-
   .about-img-camera p {
     font-size: 12px;
-
     padding: 0;
   }
 
