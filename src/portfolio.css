@@ -18,18 +18,26 @@ h2 {
   font-size: 48px;
 }
 
-/*  INDEX PAGE  */
+.index-hero {
+  height: 700px;
+  width: auto;
+  background-image: url(/medias/bg1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: #212121;
+}
 
 blockquote {
   padding-bottom: 20px;
 }
 
-.home-p {
+.index-home-p {
   font-style: italic;
   font-size: 18px;
 }
 
-.hero-button {
+.all-button {
   text-decoration: none;
   background-color: white;
   color: black;
@@ -41,47 +49,37 @@ blockquote {
   font-size: 14px;
 }
 
-.hero-button:hover {
+.all-button:hover {
   color: black;
 }
 
 /*   ABOUT ME PAGE  */
-
-.about-hero {
-  height: 700px;
-  width: auto;
-  background-image: url(/medias/bg1.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: top;
-  background-color: #212121;
-}
-
-.about-p {
-  text-align: justify;
-}
-
-.camera {
-  height: 30px;
-  width: auto;
-}
 
 .pink-title {
   font-size: 18px;
   color: #f76b8a;
 }
 
-.socials {
+.about-p {
+  text-align: justify;
+}
+
+.about-socials {
   padding-bottom: 30px;
 }
 
-.contact-a {
+.about-link {
   text-decoration: none;
   color: white;
 }
 
-.contact-a:hover {
+.about-link:hover {
   color: #f76b8a;
+}
+
+.about-camera-img {
+  height: 30px;
+  width: auto;
 }
 
 .about-btn-wrap {
@@ -100,7 +98,7 @@ li {
 /*    MEDIA QUERIES INDEX  */
 
 @media (max-width: 767px) {
-  .about-hero {
+  .index-hero {
     height: auto;
     width: auto;
   }
@@ -117,7 +115,7 @@ li {
     padding-bottom: 0;
   }
 
-  .hero-button {
+  .all-button {
     padding: 5px 10px;
     border: 1px solid white;
     border-radius: 20px;
@@ -158,7 +156,7 @@ li {
     margin-top: 20px;
   }
 
-  .hero-button {
+  .all-button {
     padding: 12px 30px;
     border: 1px solid white;
     border-radius: 20px;
