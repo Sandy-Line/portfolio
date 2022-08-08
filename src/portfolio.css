@@ -18,6 +18,12 @@ h2 {
   font-size: 48px;
 }
 
+/*  INDEX PAGE  */
+
+blockquote {
+  padding-bottom: 20px;
+}
+
 .home-p {
   font-style: italic;
   font-size: 18px;
@@ -39,22 +45,7 @@ h2 {
   color: black;
 }
 
-@media (max-width: 652px) {
-  h1 {
-    font-size: 38px;
-  }
-  h2 {
-    font-size: 28px;
-  }
-
-  blockquote {
-    font-size: 8px;
-  }
-  .hero-button {
-    padding: 20px;
-    font-size: 12px;
-  }
-}
+/*   ABOUT ME PAGE  */
 
 .about-hero {
   height: 700px;
@@ -80,6 +71,10 @@ h2 {
   color: #f76b8a;
 }
 
+.socials {
+  padding-bottom: 30px;
+}
+
 .contact-a {
   text-decoration: none;
   color: white;
@@ -87,10 +82,6 @@ h2 {
 
 .contact-a:hover {
   color: #f76b8a;
-}
-
-.about-img-camera {
-  background-color: #2d2727;
 }
 
 .about-btn-wrap {
@@ -101,7 +92,77 @@ footer {
   background-color: #2d2727;
 }
 
-footer li {
+li {
   list-style-type: none;
   text-align: center;
+}
+
+/*    MEDIA QUERIES INDEX  */
+
+@media (max-width: 767px) {
+  .about-hero {
+    height: auto;
+    width: auto;
+  }
+
+  .index-title h1,
+  h2 {
+    font-size: 24px;
+  }
+  .index-title p {
+    font-size: 12px;
+  }
+
+  blockquote {
+    padding-bottom: 0;
+  }
+
+  .hero-button {
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 8px;
+  }
+
+  .socials {
+    padding-bottom: 10px;
+  }
+
+  footer h4,
+  p {
+    padding-right: 0;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .container {
+    margin: 0;
+  }
+}
+
+/*    MEDIA QUERIES ABOUT ME  */
+
+@media (max-width: 1202px) {
+  .index-title h1 {
+    font-size: 24px;
+    letter-spacing: 0.2rem;
+  }
+
+  .about-img-camera p {
+    font-size: 12px;
+
+    padding: 0;
+  }
+
+  .about-btn-wrap {
+    margin-top: 20px;
+  }
+
+  .hero-button {
+    padding: 12px 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 8px;
+    margin-bottom: 20px;
+  }
 }
